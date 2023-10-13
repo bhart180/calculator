@@ -1,0 +1,26 @@
+import java.util.*;
+public class Claculator
+{
+public static void main (String []args)
+{
+  int a;
+  int b;
+  char operator;
+ Scanner sc= new Scanner (System.in);
+ System,out,println("enter the first number");
+ a=sc.nextInt();
+ Systen.out.println("enter the second number");
+ b=sc,nextInt();
+ System.out.println("what operator");
+ operator=sc,next().charAt(0);
+ switch (operator)
+{
+   case '+':ans=a+b;
+            break;
+   case '-':ans=a-b;
+            break;
+  case '*':ans=a*b;
+           break;
+  }
+System.out.println(a+ "" +operator+"" +b"=" +ans);
+}
